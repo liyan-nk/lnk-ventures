@@ -1,4 +1,8 @@
 <?php
+// Configure SMTP settings
+ini_set("SMTP", "smtp.gmail.com");
+ini_set("smtp_port", "587");
+
 // Check if the form is submitted
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Retrieve form data
