@@ -590,6 +590,28 @@ section {
   margin: 15px 0 30px 0;
   line-height: 24px;
 }
+.about2 .content {
+  background-color: #ffffff;
+  padding: 40px;
+}
+
+.about2 h3 {
+  font-size: 14px;
+  font-weight: 700;
+  color: #4154f1;
+  text-transform: uppercase;
+}
+
+.about2 h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #012970;
+}
+
+.about2 p {
+  margin: 15px 0 30px 0;
+  line-height: 24px;
+}
 
 .about .btn-read-more {
   line-height: 0;
@@ -615,6 +637,32 @@ section {
 }
 
 .about .btn-read-more:hover i {
+  transform: translateX(5px);
+}
+.about2 .btn-read-more {
+  line-height: 0;
+  padding: 15px 40px;
+  border-radius: 4px;
+  transition: 0.5s;
+  color: #fff;
+  background: #4154f1;
+  box-shadow: 0px 5px 25px rgba(65, 84, 241, 0.3);
+}
+
+.about2 .btn-read-more span {
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.about2 .btn-read-more i {
+  margin-left: 5px;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.about2 .btn-read-more:hover i {
   transform: translateX(5px);
 }
 
@@ -1506,6 +1554,7 @@ section {
 
 .team .member .member-info p {
   font-style: italic;
+  text-align: justify;
   font-size: 14px;
   padding-top: 15px;
   line-height: 26px;
@@ -2410,7 +2459,16 @@ section {
   line-height: 26px;
 }
 
+.footer-contact a{
+  text-decoration: none;
+  color: black;
+}
 .footer .copyright {
+  text-align: center;
+  padding-top: 30px;
+  color: #012970;
+}
+.footer .copyright a {
   text-align: center;
   padding-top: 30px;
   color: #012970;
